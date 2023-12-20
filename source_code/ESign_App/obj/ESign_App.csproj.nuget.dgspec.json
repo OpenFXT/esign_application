@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\HAVE_Thu_Muc_Tong\\NONE_Khong_Gian\\Electronic_Signature_Domain\\ESign_App\\ESign_App.csproj": {}
+  },
+  "projects": {
+    "D:\\HAVE_Thu_Muc_Tong\\NONE_Khong_Gian\\Electronic_Signature_Domain\\ESign_App\\ESign_App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HAVE_Thu_Muc_Tong\\NONE_Khong_Gian\\Electronic_Signature_Domain\\ESign_App\\ESign_App.csproj",
+        "projectName": "ESign_App",
+        "projectPath": "D:\\HAVE_Thu_Muc_Tong\\NONE_Khong_Gian\\Electronic_Signature_Domain\\ESign_App\\ESign_App.csproj",
+        "packagesPath": "C:\\Users\\UTH\\.nuget\\packages\\",
+        "outputPath": "D:\\HAVE_Thu_Muc_Tong\\NONE_Khong_Gian\\Electronic_Signature_Domain\\ESign_App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\UTH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.9, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2020.0.2, )"
+            },
+            "System.Security.Cryptography.X509Certificates": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
